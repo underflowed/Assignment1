@@ -33,5 +33,24 @@ html, body {
 }
 
 ul {
-  
+  font-family: sans-serif;
 }
+ h1 {
+   font-family: cursive;
+ } 
+p {
+  font-family: fantasy;
+  color: #789D8B;
+} 
+img {
+  background-blend-mode: darken;
+  border-radius: 8px;
+} 
+li {
+  background: #c2c2c2;
+  border-radius: 8px;
+  padding: 20px;
+}
+table {
+  background: #5e685e;
+} 

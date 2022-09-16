@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "h h h h"
+    "n m m m"
+    "f f f f";
+  gap: 10px;
+} 
+.grid-container > * {
+  background-color: #dfe0e1;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.h {
+  grid-area: h;
+}
+
+.n {
+  grid-area: n;
+}
+
+.m {
+  grid-area: m;
+}
+
+.f {
+  grid-area: f;
+}
+
+ul {
+  
+}

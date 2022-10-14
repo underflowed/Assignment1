@@ -32,7 +32,14 @@ html, body {
   grid-area: f;
 }
 
+.lower-roman{
+  list-style: lower-roman;
+}
+.odd {
+  background-color: red;
+}
 ul {
+  list-style: upper-roman;
   font-family: sans-serif;
 }
  h1 {

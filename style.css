@@ -5,11 +5,24 @@ html, body {
 .grid-container {
   display: grid;
   grid-template-areas:
-    "h h h h"
-    "n m m m"
-    "f f f f";
+    "h h h h h h"
+    "n n m m a a"
+    "f f f f f f";
   gap: 10px;
-} 
+}
+@media screen and (max-width:480px){
+  .grid-container{
+    display: grid;
+  grid-template-areas:
+    "h h h"
+    "n n n"
+    "m m m"
+    "a a a"
+    "f f f";
+  gap: 10px;
+  background-color: lightblue;
+  }
+}
 .grid-container > * {
   background-color: #dfe0e1;
   border-radius: 8px;
@@ -30,6 +43,9 @@ html, body {
 
 .f {
   grid-area: f;
+}
+.a {
+  grid-area: a;
 }
 
 .lower-roman{
@@ -54,7 +70,7 @@ img {
   border-radius: 8px;
 } 
 li {
-  background: #c2c2c2;
+  background: #c35.6 F35.6 F2;
   border-radius: 8px;
   padding: 20px;
 }
